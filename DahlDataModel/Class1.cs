@@ -93,7 +93,6 @@ namespace DahlDataModel
         public DahlEntities()
             : base(@"Data Source=Donau.hiof.no;Initial Catalog=andersi;Persist Security Info=True;User ID=andersi;Password=Sommer15")
         {
-            //fix 1
             this.Configuration.ProxyCreationEnabled = false;
         }
 
